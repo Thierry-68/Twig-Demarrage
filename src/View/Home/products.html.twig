@@ -1,0 +1,16 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <h1>List of Products</h1>
+    <div class="container">
+    {% for key,product in products%}
+
+        <div class="product">{{product}}</div>
+        {% if (key+1)%3 == 0  %}
+            <br>
+        {% endif %}
+    {% endfor %}
+    </div>
+   {{ dump(products) }}
+{% endblock %}
+

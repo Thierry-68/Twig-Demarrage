@@ -1,0 +1,11 @@
+.container{
+    width: 80vw; 
+    height: 150vh;    
+}
+
+.product{
+    
+    width: 150px;
+    text-align:center;
+    display: inline-block;
+}
